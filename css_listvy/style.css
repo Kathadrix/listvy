@@ -1,0 +1,116 @@
+
+body {
+	font-family: sans-serif;
+}
+
+#content:before,
+#content:after {
+  content: "";
+  display: table;
+}
+#content:after {
+  clear: both;
+}
+#content {
+  clear: both;
+  *zoom: 1;
+}
+
+div, header, aside, section, article, footer {
+	box-sizing: border-box;
+}
+
+aside, article, footer {
+	margin: 10px;
+	padding: 10px;
+	background-color: #ddd;
+}
+header {
+	background-color: #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 5px  #888888;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+
+#content {
+	width: 960px;
+	margin: auto;
+}
+
+aside {
+	width: 300px;
+	height: 480px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius:5px;
+}
+
+section {
+	background-color: white;
+	width: 640px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+}
+
+article {
+	background-color: white;
+	width: 140px;
+	height: 220px;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius:10px;
+	margin-top: 13px;
+}
+
+
+.produktbilder{
+	width: 120px;
+	height: 120px;
+}
+
+footer {
+	clear: both;
+}
+
+table {
+	margin: auto;
+}
+
+
+
+
+.button{
+	display: block;
+	color: white;
+	background-color: #01FF01;
+	text-align: center;
+	width:100px;
+	height: 30px;
+	border: 2px solid black;
+	font: bold 25px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	border-radius: 10px;
+	text-shadow: 0 2px 2px black;
+	margin-top: 5px;
+}
+
+a.button{
+	text-decoration: none;
+}
+a.button:hover{
+	background: #00B200;
+}
+
+td {
+	padding: 10px;
+	margin-top: 14px;
+}
